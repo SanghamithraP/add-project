@@ -1,0 +1,31 @@
+when login click
+do set VerticalArrangement1 Visible to false     when add click
+   set VerticalArrangement2 Visible to true      do set Label5 Text to  Label5 Text + 1
+                                                    set Label8 Text to  Label8 Text +200
+                                                                                 when add1 click
+                                                                                 do set Label13 Text to  Label13 Text + 1
+                                                                                    set Label8 Text to  Label8 Text + 200
+
+when register click
+do set VerticalArrangement1 Visible to false
+   set VerticalArrangement2 Visible to false     when sub click
+   set VerticalArrangement3 Visible to true      do if  Label5 Text >= 1
+                                                    then set Label8 Text to Label8 Text - 200      when sub1 click
+                                                    else set Label8 Text to Label8 Text            do if Label13 Text >= 1 
+                                                    if  Label5 Text >= 1                              then set Label8 Text to Label8 Text - 250
+                                                    then set Label5 Text to Label5 Text - 1           else set Label8 Text to Label8 Text
+                                                    else set Label5 Text to Label5 Text               if Label13 Text >= 1 
+                                                                                                      then set Label5 Text to Label13 Text - 1
+                                                                                                      else set Label5 Text to Label13 Text
+when Hostel_Details click
+do set VerticalArrangement1 Visible to false
+   set VerticalArrangement2 Visible to false
+   set VerticalArrangement3 Visible to false      
+   set VerticalArrangement4 Visible to true 
+
+when Order_now click
+do set VerticalArrangement1 Visible to false
+   set VerticalArrangement2 Visible to false
+   set VerticalArrangement3 Visible to false
+   set VerticalArrangement4 Visible to false
+   set VerticalArrangement11 Visible to true 
